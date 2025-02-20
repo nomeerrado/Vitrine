@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-    <title>Clothes Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine Virtual - Moda & Estilo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
@@ -14,41 +16,96 @@
 <body>
     <header>
         <nav>
+            <div class="logo">
+                <h2>Vitrine Virtual</h2>
+            </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Coleção</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h1>Transform your look: discover elegant and unique styles!</h1>
-            <div class="banner">
+        <section class="banner">
+            <div class="banner-content">
+                <h1>Descubra seu Estilo Único</h1>
+                <p>Explore nossa coleção exclusiva de moda e acessórios</p>
             </div>
         </section>
 
         <section class="content">
-            <h1>Reinvent yourself with elegance - Explore styles that define you.</h1>
+            <h2>Nossa Coleção</h2>
             <div class="imgs-display">
-                <img src="../assets/images/01.jpeg" />
-                <img src="../assets/images/02.jpg" />
-                <!-- <img src="../assets/images/03.jpg" /> -->
-                <img src="../assets/images/04.jpg" />
-                <img src="../assets/images/05.jpg" />
-                <img src="../assets/images/06.jpg" />
-                <img src="../assets/images/07.jpg" />
-                <img src="../assets/images/08.jpg" />
-                <img src="../assets/images/09.jpg" />
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="../assets/images/01.jpeg" alt="Produto 1 - Vista 1" class="product-image active" />
+                        <img src="../assets/images/02.jpg" alt="Produto 1 - Vista 2" class="product-image" />
+                        <div class="image-nav">
+                            <span class="image-nav-dot active"></span>
+                            <span class="image-nav-dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="../assets/images/04.jpg" alt="Produto 2 - Vista 1" class="product-image active" />
+                        <img src="../assets/images/05.jpg" alt="Produto 2 - Vista 2" class="product-image" />
+                        <div class="image-nav">
+                            <span class="image-nav-dot active"></span>
+                            <span class="image-nav-dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="../assets/images/06.jpg" alt="Produto 3 - Vista 1" class="product-image active" />
+                        <img src="../assets/images/07.jpg" alt="Produto 3 - Vista 2" class="product-image" />
+                        <div class="image-nav">
+                            <span class="image-nav-dot active"></span>
+                            <span class="image-nav-dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-images">
+                        <img src="../assets/images/08.jpg" alt="Produto 4 - Vista 1" class="product-image active" />
+                        <img src="../assets/images/09.jpg" alt="Produto 4 - Vista 2" class="product-image" />
+                        <div class="image-nav">
+                            <span class="image-nav-dot active"></span>
+                            <span class="image-nav-dot"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- Modal para exibição das imagens -->
+    <div class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <img src="" alt="" class="modal-image">
+            <div class="modal-nav">
+                <button class="modal-prev">&lt;</button>
+                <button class="modal-next">&gt;</button>
+            </div>
+        </div>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Clothes Shop. All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Vitrine Virtual. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
     </footer>
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>
