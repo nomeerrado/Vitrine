@@ -1,8 +1,8 @@
-# Site simples como base de uma vitrine web
+# Representação de uma vitrine virtual para exposição de produtos
 
-![cshop-01](https://github.com/nomeerrado/Vitrine/assets/63516704/c565701a-7c22-440b-8469-4f59123a7b9e)
-![cshop-02](https://github.com/nomeerrado/Vitrine/assets/63516704/9475901d-7409-4287-9da7-97bffae874ac)
-
+![image](https://github.com/user-attachments/assets/6cea32a7-9c5c-4539-8168-a4cc292ce6ce)
+![image](https://github.com/user-attachments/assets/c8ebfd30-adde-4f75-8f29-c70826969cff)
+![image](https://github.com/user-attachments/assets/645266ea-c15b-4532-b1da-0f0bc94adaf8)
 
 # Imagens utilizadas no projeto  
 
