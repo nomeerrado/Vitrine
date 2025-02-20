@@ -1,4 +1,6 @@
-# Representação de uma vitrine virtual para exposição de produtos
+# Projeto demonstrativo de uma vitrine
+
+Representação de uma vitrine virtual para exposição de produtos
 
 ![image](https://github.com/user-attachments/assets/6cea32a7-9c5c-4539-8168-a4cc292ce6ce)
 ![image](https://github.com/user-attachments/assets/c8ebfd30-adde-4f75-8f29-c70826969cff)
